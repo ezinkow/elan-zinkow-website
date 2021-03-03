@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/elan-zinkow-website/static/css/main.e670fa3a.chunk.css",
-    "main.js": "/elan-zinkow-website/static/js/main.9ab0edd5.chunk.js",
-    "main.js.map": "/elan-zinkow-website/static/js/main.9ab0edd5.chunk.js.map",
-    "runtime-main.js": "/elan-zinkow-website/static/js/runtime-main.a54215be.js",
-    "runtime-main.js.map": "/elan-zinkow-website/static/js/runtime-main.a54215be.js.map",
-    "static/js/2.742e5281.chunk.js": "/elan-zinkow-website/static/js/2.742e5281.chunk.js",
-    "static/js/2.742e5281.chunk.js.map": "/elan-zinkow-website/static/js/2.742e5281.chunk.js.map",
-    "static/js/3.7adfffda.chunk.js": "/elan-zinkow-website/static/js/3.7adfffda.chunk.js",
-    "static/js/3.7adfffda.chunk.js.map": "/elan-zinkow-website/static/js/3.7adfffda.chunk.js.map",
+    "main.js": "/elan-zinkow-website/static/js/main.5f1d857a.chunk.js",
+    "main.js.map": "/elan-zinkow-website/static/js/main.5f1d857a.chunk.js.map",
+    "runtime-main.js": "/elan-zinkow-website/static/js/runtime-main.df89d8ed.js",
+    "runtime-main.js.map": "/elan-zinkow-website/static/js/runtime-main.df89d8ed.js.map",
+    "static/js/2.ab8b1efe.chunk.js": "/elan-zinkow-website/static/js/2.ab8b1efe.chunk.js",
+    "static/js/2.ab8b1efe.chunk.js.map": "/elan-zinkow-website/static/js/2.ab8b1efe.chunk.js.map",
+    "static/js/3.4e631772.chunk.js": "/elan-zinkow-website/static/js/3.4e631772.chunk.js",
+    "static/js/3.4e631772.chunk.js.map": "/elan-zinkow-website/static/js/3.4e631772.chunk.js.map",
     "index.html": "/elan-zinkow-website/index.html",
     "static/css/main.e670fa3a.chunk.css.map": "/elan-zinkow-website/static/css/main.e670fa3a.chunk.css.map",
-    "static/js/2.742e5281.chunk.js.LICENSE.txt": "/elan-zinkow-website/static/js/2.742e5281.chunk.js.LICENSE.txt",
+    "static/js/2.ab8b1efe.chunk.js.LICENSE.txt": "/elan-zinkow-website/static/js/2.ab8b1efe.chunk.js.LICENSE.txt",
     "static/media/Zinkow_headshot.2c9f99e9.jpg": "/elan-zinkow-website/static/media/Zinkow_headshot.2c9f99e9.jpg",
     "static/media/coding-quiz.a39e46ad.jpg": "/elan-zinkow-website/static/media/coding-quiz.a39e46ad.jpg",
     "static/media/coding_img.233f5801.jpg": "/elan-zinkow-website/static/media/coding_img.233f5801.jpg",
@@ -24,9 +24,9 @@
     "static/media/weather-dashboard.d11db094.png": "/elan-zinkow-website/static/media/weather-dashboard.d11db094.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a54215be.js",
-    "static/js/2.742e5281.chunk.js",
+    "static/js/runtime-main.df89d8ed.js",
+    "static/js/2.ab8b1efe.chunk.js",
     "static/css/main.e670fa3a.chunk.css",
-    "static/js/main.9ab0edd5.chunk.js"
+    "static/js/main.5f1d857a.chunk.js"
   ]
 }
