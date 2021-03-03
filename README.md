@@ -2,8 +2,9 @@
 
 ![image](https://user-images.githubusercontent.com/71417500/109755478-b159ab80-7bab-11eb-914f-8c287d996c90.png)
 
-## Link to app on Heroku:
+## Link to deployed app:
 
+https://ezinkow.github.io/elan-zinkow-website/
 
 ## About This Project:
 
