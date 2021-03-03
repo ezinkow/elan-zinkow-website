@@ -43,7 +43,9 @@ export default function Body() {
     const classes = useStyles();
     return (
         <main className={classes.content}>
-            <About />
+            <Grid item xs={8}>
+                <About />
+            </Grid>
             <Developer />
             <Skills />
             <Resume />
