@@ -6,12 +6,6 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Toolbar from '@material-ui/core/Toolbar';
 import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
 import Avatar from '@material-ui/core/Avatar';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
@@ -93,29 +87,27 @@ export default function Header() {
           <List style={{ display: 'block' }}>
             <Link to="/">
               <div style={{ display: 'flex' }}>
-                <HomeIcon fontSize='large' style={{color:'white', margin: '10px 20px 10px 50px'}}/><h2 style={{ color: 'white', textDecoration: 'none'}}>Home</h2>
+                <HomeIcon fontSize='large' style={{ color: 'white', margin: '10px 20px 10px 50px' }} /><h2 style={{ color: 'white', textDecoration: 'none' }}>Home</h2>
               </div>
             </Link>
             <Link to="/about">
               <div style={{ display: 'flex' }}>
-                <PersonIcon fontSize='large' style={{color:'white', margin: '10px 20px 10px 50px'}}/><h2 style={{ color: 'white', textDecoration: 'none'}}>About</h2>
+                <PersonIcon fontSize='large' style={{ color: 'white', margin: '10px 20px 10px 50px' }} /><h2 style={{ color: 'white', textDecoration: 'none' }}>About</h2>
               </div>
             </Link>
             <Link to="/resume">
               <div style={{ display: 'flex' }}>
-                <InsertDriveFileIcon fontSize='large' style={{color:'white', margin: '10px 20px 10px 50px'}}/><h2 style={{ color: 'white', textDecoration: 'none'}}>Resumé</h2>
+                <InsertDriveFileIcon fontSize='large' style={{ color: 'white', margin: '10px 20px 10px 50px' }} /><h2 style={{ color: 'white', textDecoration: 'none' }}>Resumé</h2>
               </div>
             </Link>
             <Link to="/portfolio">
               <div style={{ display: 'flex' }}>
-                <WebIcon fontSize='large' style={{color:'white', margin: '10px 20px 10px 50px'}}/><h2 style={{ color: 'white', textDecoration: 'none'}}>Portfolio</h2>
+                <WebIcon fontSize='large' style={{ color: 'white', margin: '10px 20px 10px 50px' }} /><h2 style={{ color: 'white', textDecoration: 'none' }}>Portfolio</h2>
               </div>
             </Link>
-            <Link to="/contact">
-              <div style={{ display: 'flex' }}>
-                <EmailIcon fontSize='large' style={{color:'white', margin: '10px 20px 10px 50px'}}/><h2 style={{ color: 'white', textDecoration: 'none'}}>Contact</h2>
-              </div>
-            </Link>
+              <a href="mailto:ezinkow@gmail.com" style={{ display: 'flex' }}>
+                <EmailIcon fontSize='large' style={{ color: 'white', margin: '10px 20px 10px 50px' }} /><h2 style={{ color: 'white', textDecoration: 'none' }}>Contact</h2>
+              </a>
           </List>
         </div>
       </Drawer>

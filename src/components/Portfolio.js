@@ -8,9 +8,11 @@ import hamburger from '../images/hamburger.jpg'
 import holidayatthemovies from '../images/holidayatthemovies.jpg'
 import notetaker from '../images/note-taker.jpg'
 import weatherdashboard from '../images/weather-dashboard.png'
+import basketballDb from '../images/basketballDb.jpg'
 import employeetracker from '../images/employee-tracker.jpg'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkIcon from '@material-ui/icons/Link';
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -28,13 +30,28 @@ export default function Portfolio() {
                     <h3>Find my projects below</h3>
                 </Grid>
                 <Grid item xs={6}>
+                    <img src={basketballDb} alt="Basketball Stats Database" style={{ width: '100%', height: '70%' }} />
+                    <div style={{ display: 'flex', textAlign: 'center' }}>
+                        <Grid item xs={4}>
+                            <h2 class="thumbName">Basketball Stats Database</h2>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <a href="https://github.com/ezinkow/bball-stats-db" target="_blank" rel="noreferrer" title="GitHub Repo" style={{ color: 'black' }}><h2><GitHubIcon fontSize="large" /></h2></a>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <a href="https://ezinkow.github.io/bball-stats-db/" title="Basketball Stats Database" style={{ textDecoration: 'none', color: 'black' }}><h2><LinkIcon fontSize="large" /></h2><i
+                                class="bx bx-link"></i></a>
+                        </Grid >
+                    </div >
+                </Grid >
+                <Grid item xs={6}>
                     <img src={puppies} alt="Basket of Puppies" style={{ width: '100%', height: '70%' }} />
                     <div style={{ display: 'flex', textAlign: 'center' }}>
                         <Grid item xs={4}>
                             <h2 class="thumbName">Basket of Puppies</h2>
                         </Grid>
                         <Grid item xs={4}>
-                            <a href="https://github.com/ezinkow/basket-of-puppies" target="_blank" title="GitHub Repo" style={{ color: 'black' }}><h2><GitHubIcon fontSize="large" /></h2></a>
+                            <a href="https://github.com/ezinkow/basket-of-puppies" target="_blank" rel="noreferrer" title="GitHub Repo" style={{ color: 'black' }}><h2><GitHubIcon fontSize="large" /></h2></a>
                         </Grid>
                         <Grid item xs={4}>
                             <a href="https://basket-of-puppies.herokuapp.com/" title="Basket of Puppies" style={{ textDecoration: 'none', color: 'black' }}><h2><LinkIcon fontSize="large" /></h2><i
@@ -49,7 +66,7 @@ export default function Portfolio() {
                             <h2>Holiday At the Movies</h2>
                         </Grid>
                         <Grid item xs={4}>
-                            <a href="https://github.com/ezinkow/Holiday-at-the-Movies" target="_blank" title="GitHub Repo"><GitHubIcon fontSize="large" /></a>
+                            <a href="https://github.com/ezinkow/Holiday-at-the-Movies" target="_blank" rel="noreferrer" title="GitHub Repo"><GitHubIcon fontSize="large" /></a>
                         </Grid>
                         <Grid item xs={4}>
                             <a href="https://ezinkow.github.io/Holiday-at-the-Movies/" title="Holiday At The Movies"><LinkIcon fontSize="large" /></a>
@@ -63,7 +80,7 @@ export default function Portfolio() {
                             <h2>Employee Management System</h2>
                         </Grid>
                         <Grid item xs={3}>
-                            <a href="https://github.com/ezinkow/Employee-Tracker" target="_blank" title="GitHub Repo"><GitHubIcon fontSize='large'/></a>
+                            <a href="https://github.com/ezinkow/Employee-Tracker" target="_blank" rel="noreferrer" title="GitHub Repo"><GitHubIcon fontSize='large'/></a>
                         </Grid>
                         <Grid item xs={3}>
                             <a href="https://youtu.be/jOBB4E-YE8Q" title="Employee Management System"><LinkIcon fontSize="large" /></a>
@@ -77,7 +94,7 @@ export default function Portfolio() {
                             <h2>Burger Logger</h2>
                         </Grid>
                         <Grid item xs={4}>
-                            <a href="https://github.com/ezinkow/Burger-Logger" target="_blank" title="GitHub Repo"><GitHubIcon fontSize='large'/></a>
+                            <a href="https://github.com/ezinkow/Burger-Logger" target="_blank" rel="noreferrer" title="GitHub Repo"><GitHubIcon fontSize='large'/></a>
                         </Grid>
                         <Grid item xs={4}>
                             <a href="https://shrouded-wildwood-93576.herokuapp.com/" title="Burger Logger"><LinkIcon fontSize="large" /></a>
@@ -91,7 +108,7 @@ export default function Portfolio() {
                             <h2>Note Taker</h2>
                         </Grid>
                         <Grid item xs={4}>
-                            <a href="https://github.com/ezinkow/Note-Taker" target="_blank" title="GitHub Repo"><GitHubIcon fontSize='large'/></a>
+                            <a href="https://github.com/ezinkow/Note-Taker" target="_blank" rel="noreferrer" title="GitHub Repo"><GitHubIcon fontSize='large'/></a>
                         </Grid>
                         <Grid item xs={4}>
                             <a href="https://note-taker-ez.herokuapp.com/notes" title="Note Taker"><LinkIcon fontSize="large" /></a>
@@ -105,7 +122,7 @@ export default function Portfolio() {
                             <h2>Weather Dashboard</h2>
                         </Grid>
                         <Grid item xs={4}>
-                            <a href="https://github.com/ezinkow/weather-dashboard" target="_blank" title="GitHub Repo"><GitHubIcon fontSize='large'/></a>
+                            <a href="https://github.com/ezinkow/weather-dashboard" target="_blank" rel="noreferrer" title="GitHub Repo"><GitHubIcon fontSize='large'/></a>
                         </Grid>
                         <Grid item xs={4}>
                             <a href="https://ezinkow.github.io/weather-dashboard/" title="Weather Dashboard"><LinkIcon fontSize="large" /></a>
@@ -119,7 +136,7 @@ export default function Portfolio() {
                             <h2>Coding Quiz</h2>
                         </Grid>
                         <Grid item xs={4}>
-                            <a href="https://github.com/ezinkow/coding-quiz" target="_blank" title="GitHub Repo"><GitHubIcon fontSize='large'/></a>
+                            <a href="https://github.com/ezinkow/coding-quiz" target="_blank" rel="noreferrer" title="GitHub Repo"><GitHubIcon fontSize='large'/></a>
                         </Grid>
                         <Grid item xs={4}>
                             <a href="https://ezinkow.github.io/coding-quiz/" title="More Details"><LinkIcon fontSize="large" /></a>
@@ -134,7 +151,7 @@ export default function Portfolio() {
                             <h2>Day Planner</h2>
                         </Grid>
                         <Grid item xs={4}>
-                            <a href="https://github.com/ezinkow/calendar-planner" target="_blank" title="GitHub Repo"><GitHubIcon fontSize='large'/></a>
+                            <a href="https://github.com/ezinkow/calendar-planner" target="_blank" rel="noreferrer" title="GitHub Repo"><GitHubIcon fontSize='large'/></a>
                         </Grid>
                         <Grid item xs={4}>
                             <a href="https://ezinkow.github.io/calendar-planner/" title="Day Planner"><LinkIcon fontSize="large" /></a>
