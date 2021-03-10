@@ -60,6 +60,20 @@ export default function Portfolio() {
                     </div >
                 </Grid >
                 <Grid item xs={6}>
+                    <img src={books} style={{ width: '100%', height: '70%' }} alt="Google Books Search" />
+                    <div style={{ display: 'flex', textAlign: 'center' }}>
+                        <Grid item xs={4}>
+                            <h2>Google Books API Search</h2>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <a href="https://github.com/ezinkow/google-books-search" target="_blank" rel="noreferrer" title="GitHub Repo"><GitHubIcon fontSize="large" /></a>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <a href="https://young-everglades-62991.herokuapp.com/" title="Google Books API Search"><LinkIcon fontSize="large" /></a>
+                        </Grid>
+                    </div>
+                </Grid>
+                <Grid item xs={6}>
                     <img src={holidayatthemovies} style={{ width: '100%', height: '70%' }} alt="Holiday at the Movies" />
                     <div style={{ display: 'flex', textAlign: 'center' }}>
                         <Grid item xs={4}>
