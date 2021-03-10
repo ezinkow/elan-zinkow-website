@@ -10,6 +10,7 @@ import notetaker from '../images/note-taker.jpg'
 import weatherdashboard from '../images/weather-dashboard.png'
 import basketballDb from '../images/basketballDb.jpg'
 import employeetracker from '../images/employee-tracker.jpg'
+import books from '../images/books-api-search.jpg'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkIcon from '@material-ui/icons/Link';
 
