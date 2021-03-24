@@ -13,6 +13,7 @@ import employeetracker from '../images/employee-tracker.jpg'
 import books from '../images/books-api-search.jpg'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkIcon from '@material-ui/icons/Link';
+import snomore from '../images/snomore.jpg'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -30,6 +31,21 @@ export default function Portfolio() {
                     <h1>Portfolio</h1>
                     <h3>Find my projects below</h3>
                 </Grid>
+                <Grid item xs={6}>
+                    <img src={snomore} alt="Sno' More" style={{ width: '100%', height: '70%' }} />
+                    <div style={{ display: 'flex', textAlign: 'center' }}>
+                        <Grid item xs={4}>
+                            <h2 class="thumbName">Sno' More</h2>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <a href="https://github.com/ezinkow/SnoMore" target="_blank" rel="noreferrer" title="GitHub Repo" style={{ color: 'black' }}><h2><GitHubIcon fontSize="large" /></h2></a>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <a href="https://snow-more.herokuapp.com/" title="Sno' More" style={{ textDecoration: 'none', color: 'black' }}><h2><LinkIcon fontSize="large" /></h2><i
+                                class="bx bx-link"></i></a>
+                        </Grid >
+                    </div >
+                </Grid >
                 <Grid item xs={6}>
                     <img src={basketballDb} alt="Basketball Stats Database" style={{ width: '100%', height: '70%' }} />
                     <div style={{ display: 'flex', textAlign: 'center' }}>
