@@ -24,41 +24,17 @@ const useStyles = makeStyles((theme) => ({
 function App() {
   const classes = useStyles();
   return (
-    <div>
-      <Router>
-        <div className={classes.root}>
-          <Grid container spacing={0}>
-            <Grid item xs={2}>
-              <Header />
-            </Grid>
-            <Grid item xs={10}>
-              <Intro />
-              <Body />
-            </Grid>
-          </Grid>
-        </div>
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/developer">
-            <Developer />
-          </Route>
-          <Route path="/skills">
-            <Skills />
-          </Route>
-          <Route path="/resume">
-            <Resume />
-          </Route>
-          <Route path="/portfolio">
-            <Portfolio />
-          </Route>
-          <Route exact path="/">
+      <div className={classes.root}>
+        <Grid container spacing={0}>
+          <Grid item xs={2}>
             <Header />
-          </Route>
-        </Switch>
-      </Router>
-    </div>
+          </Grid>
+          <Grid item xs={10}>
+            <Intro />
+            <Body />
+          </Grid>
+        </Grid>
+      </div>
   )
 }
 

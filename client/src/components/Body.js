@@ -8,6 +8,7 @@ import Developer from './Developer'
 import Skills from './Skills'
 import Resume from './Resume'
 import Portfolio from './Portfolio'
+import Contact from './Contact'
 
 const drawerWidth = 240;
 
@@ -43,13 +44,14 @@ export default function Body() {
     const classes = useStyles();
     return (
         <main className={classes.content}>
-            <Grid item xs={8}>
+            <Grid item xs={9}>
                 <About />
             </Grid>
             <Developer />
             <Skills />
             <Resume />
             <Portfolio />
+            <Contact />
         </main>
     )
 }

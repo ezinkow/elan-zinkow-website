@@ -98,20 +98,21 @@ export default function Header() {
           </List>
           <List style={{ display: 'block' }}>
             <div className={classes.menuDiv}>
-              <HomeIcon fontSize='large' className={classes.icons}/><a href="#home"><h2 className={classes.menu}>Home</h2></a>
+              <HomeIcon fontSize='large' className={classes.icons} /><a href="#home"><h2 className={classes.menu}>Home</h2></a>
             </div>
             <div className={classes.menuDiv}>
-              <PersonIcon fontSize='large' className={classes.icons}/><a href="#about"><h2 className={classes.menu}>About</h2></a>
+              <PersonIcon fontSize='large' className={classes.icons} /><a href="#about"><h2 className={classes.menu}>About</h2></a>
             </div>
             <div className={classes.menuDiv}>
-              <InsertDriveFileIcon fontSize='large' className={classes.icons}/><a href="#resume"><h2 className={classes.menu}>Resumé</h2></a>
+              <InsertDriveFileIcon fontSize='large' className={classes.icons} /><a href="#resume"><h2 className={classes.menu}>Resumé</h2></a>
             </div>
             <div className={classes.menuDiv}>
-              <WebIcon fontSize='large' className={classes.icons}/><a href="#portfolio"><h2 className={classes.menu}>Portfolio</h2></a>
+              <WebIcon fontSize='large' className={classes.icons} /><a href="#portfolio"><h2 className={classes.menu}>Portfolio</h2></a>
             </div>
-            <a href="mailto:ezinkow@gmail.com" className={classes.menuDiv}>
-              <EmailIcon fontSize='large' className={classes.icons}/><h2 className={classes.menu}>Contact</h2>
-            </a>
+            <div className={classes.menuDiv}>
+              <EmailIcon fontSize='large' className={classes.icons} /><a href="#contact"><h2 className={classes.menu}>Contact</h2>
+              </a>
+            </div>
           </List>
         </div>
       </Drawer>
