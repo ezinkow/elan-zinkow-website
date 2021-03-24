@@ -8,7 +8,7 @@ https://ezinkow.github.io/elan-zinkow-website/
 
 ## About This Project:
 
-This was a homework assignment as part of the Northwestern Coding Bootcamp to build a portfolio website using React.
+This is my portfolio website where one can find my personal projects and contact me for work.
 
 This was built with React.
 
