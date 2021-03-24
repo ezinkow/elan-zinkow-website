@@ -73,7 +73,7 @@ export default function Header() {
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Elan Zinkow
+            Elan Zinkow --- Full Stack Web Developer 🖥️
           </Typography>
         </Toolbar>
       </AppBar>
