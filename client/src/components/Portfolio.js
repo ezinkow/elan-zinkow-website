@@ -190,6 +190,7 @@ export default function Portfolio() {
                     </div>
                 </Grid>
             </Grid >
+            <div id="contact"></div>
         </div >
     )
 }
