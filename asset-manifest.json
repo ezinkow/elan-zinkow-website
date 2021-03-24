@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/elan-zinkow-website/static/css/main.e670fa3a.chunk.css",
-    "main.js": "/elan-zinkow-website/static/js/main.aefa992e.chunk.js",
-    "main.js.map": "/elan-zinkow-website/static/js/main.aefa992e.chunk.js.map",
+    "main.js": "/elan-zinkow-website/static/js/main.e9fa421e.chunk.js",
+    "main.js.map": "/elan-zinkow-website/static/js/main.e9fa421e.chunk.js.map",
     "runtime-main.js": "/elan-zinkow-website/static/js/runtime-main.a4dd94ab.js",
     "runtime-main.js.map": "/elan-zinkow-website/static/js/runtime-main.a4dd94ab.js.map",
-    "static/js/2.e6872a3c.chunk.js": "/elan-zinkow-website/static/js/2.e6872a3c.chunk.js",
-    "static/js/2.e6872a3c.chunk.js.map": "/elan-zinkow-website/static/js/2.e6872a3c.chunk.js.map",
+    "static/js/2.abc555f0.chunk.js": "/elan-zinkow-website/static/js/2.abc555f0.chunk.js",
+    "static/js/2.abc555f0.chunk.js.map": "/elan-zinkow-website/static/js/2.abc555f0.chunk.js.map",
     "static/js/3.544c4455.chunk.js": "/elan-zinkow-website/static/js/3.544c4455.chunk.js",
     "static/js/3.544c4455.chunk.js.map": "/elan-zinkow-website/static/js/3.544c4455.chunk.js.map",
     "index.html": "/elan-zinkow-website/index.html",
     "static/css/main.e670fa3a.chunk.css.map": "/elan-zinkow-website/static/css/main.e670fa3a.chunk.css.map",
-    "static/js/2.e6872a3c.chunk.js.LICENSE.txt": "/elan-zinkow-website/static/js/2.e6872a3c.chunk.js.LICENSE.txt",
+    "static/js/2.abc555f0.chunk.js.LICENSE.txt": "/elan-zinkow-website/static/js/2.abc555f0.chunk.js.LICENSE.txt",
     "static/media/Zinkow_headshot.2c9f99e9.jpg": "/elan-zinkow-website/static/media/Zinkow_headshot.2c9f99e9.jpg",
     "static/media/basketballDb.235e39cb.jpg": "/elan-zinkow-website/static/media/basketballDb.235e39cb.jpg",
     "static/media/books-api-search.5009bbfe.jpg": "/elan-zinkow-website/static/media/books-api-search.5009bbfe.jpg",
@@ -23,12 +23,13 @@
     "static/media/holidayatthemovies.f5ba6dca.jpg": "/elan-zinkow-website/static/media/holidayatthemovies.f5ba6dca.jpg",
     "static/media/note-taker.6c4442e4.jpg": "/elan-zinkow-website/static/media/note-taker.6c4442e4.jpg",
     "static/media/puppies.a0284bb8.jpg": "/elan-zinkow-website/static/media/puppies.a0284bb8.jpg",
+    "static/media/snomore.9d9c4912.jpg": "/elan-zinkow-website/static/media/snomore.9d9c4912.jpg",
     "static/media/weather-dashboard.d11db094.png": "/elan-zinkow-website/static/media/weather-dashboard.d11db094.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a4dd94ab.js",
-    "static/js/2.e6872a3c.chunk.js",
+    "static/js/2.abc555f0.chunk.js",
     "static/css/main.e670fa3a.chunk.css",
-    "static/js/main.aefa992e.chunk.js"
+    "static/js/main.e9fa421e.chunk.js"
   ]
 }
