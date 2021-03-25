@@ -1,6 +1,6 @@
 # Elan Zinkow Portfolio Website
 
-![image](https://user-images.githubusercontent.com/71417500/109755478-b159ab80-7bab-11eb-914f-8c287d996c90.png)
+![image](https://user-images.githubusercontent.com/71417500/112513077-fbc0e900-8d61-11eb-8796-43c477346a7f.png)
 
 ## Link to deployed app:
 
